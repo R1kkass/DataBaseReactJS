@@ -1,0 +1,13 @@
+.modalPost{
+    display: grid;
+    font-size: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    select{
+        outline: none;
+        height: 40px;
+        &:focus{
+            box-shadow: 0 0 5px 0 blue;
+        }
+    }
+}

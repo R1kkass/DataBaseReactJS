@@ -1,0 +1,30 @@
+.FormAdd{
+    display: grid;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+    textarea{
+        height: 200px;
+        width: 500px;
+        outline: none;
+        padding: 10px;
+        margin-top: 5px;
+        transition: 0.3s;
+        &:focus{
+            box-shadow: 0px 0px 5px 0px blue;
+        }
+    }
+    select, input, textarea{
+        border: 1px solid gray;
+        background-color: #f6f6f6;
+        padding: 5px;
+        border-radius: 10px;
+        outline: none;
+        transition: 0.3s;
+        &:focus{
+            box-shadow: 0px 0px 5px 0px blue;
+        }
+    }
+}

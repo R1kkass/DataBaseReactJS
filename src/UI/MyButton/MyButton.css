@@ -1,0 +1,15 @@
+.Btn {
+  min-width: 100px;
+  height: 50px;
+  border: solid 1px red;
+  color: red;
+  font-size: 1.5rem;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Btn:hover {
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=MyButton.css.map */

@@ -1,0 +1,132 @@
+.Users{
+    margin-top: 20px;
+    overflow: hidden;
+    &__block{
+        font-size: 20px;
+        &:hover{
+            color: white;
+            background-color: #48b4f1;
+        }
+    }
+    &__blockMain{
+        background-color: #0093E9;
+            color: rgb(255, 255, 255);
+        div, a{        
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            &:hover{
+                text-shadow: 0 0 5px white;
+            }
+        }
+    }
+    div{
+        overflow: hidden;
+        height: 50px;
+        display: flex;
+        border-bottom: solid 1px gray;
+        text-overflow: ellipsis;
+        padding-left: 20px;
+        align-items: center;
+        padding-right: 20px;
+        align-items: center;
+        transition: 0.1s;
+        cursor: pointer;
+        font-size: 20px;
+        p{
+            align-items: center;
+            text-align: center;
+            vertical-align: center;
+            &:hover{
+                color: red;
+            }
+        }
+        div{
+            font-size: 1.2rem; 
+            border: none;
+            text-overflow: ellipsis;
+            align-self: center;
+        &:nth-child(1){
+            width: 100px;
+            text-align: center;
+        }
+        &:nth-child(2){
+            width: 150px;
+            min-width: 150px;
+            text-align: center;
+        }
+        &:nth-child(3){
+            width: 30%;
+            min-width: 100px;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        &:nth-child(4){
+            width: 50%;
+            min-width: 100px;
+            text-align: center;
+        }
+        &:nth-child(4){
+            width: 50%;
+            min-width: 100px;
+            text-align: center;
+        }
+        }
+
+    }
+}
+
+.Pagination{
+    font-size: 20px;
+    color: navy;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    background: none;
+    color: white;
+    a{
+        border: solid 1px #0093E9;;
+        padding: 5px 10px 5px 10px;
+        margin-right: 10px;
+        color: #0093E9;
+        border-radius: 5px;
+        transition: 0.3s;
+        text-decoration: none;
+        &:hover{
+            background-color: #0093E9;;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+.Search{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    button{
+        margin-left: 10px;
+    }
+    input{
+        width: 50%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid gray;
+        background: rgb(240, 240, 240);
+        padding-left: 10px;
+        font-size: 20px;
+        transition: 0.3s;
+        &:focus{
+            box-shadow: 0 0 5px 0 #0093E9;
+            
+        }
+        
+    }
+    
+
+
+}

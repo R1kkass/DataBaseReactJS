@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Car from './Pages/Car/Car';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Post from './Pages/Post/Post';
+import Registration from './Pages/Registration/Registration';
+import Users from './Pages/Users/Users';
+import Routers from './Routers';
+import Layout from './UI/Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routers></Routers>
   );
 }
 
